@@ -45,10 +45,10 @@
   <!-- terminal prompt -->
   <text x="48" y="58" font-family="Consolas, 'Cascadia Code', Menlo, monospace" font-size="15" fill="#7dd3fc">$ whoami</text>
   <text x="48" y="108" font-family="Consolas, 'Cascadia Code', Menlo, monospace" font-size="38" font-weight="bold" fill="#f1f5f9" letter-spacing="1">Neetigya Shah</text>
-  <text x="48" y="142" font-family="Consolas, 'Cascadia Code', Menlo, monospace" font-size="16" fill="#94a3b8">agentic systems &#183; verification layers &#183; shipped end to end</text>
+  <text x="48" y="142" font-family="Consolas, 'Cascadia Code', Menlo, monospace" font-size="16" fill="#94a3b8" textLength="430" lengthAdjust="spacingAndGlyphs">agentic systems &#183; verification layers &#183; shipped end to end</text>
 
   <!-- cursor block -->
-  <rect x="512" y="126" width="10" height="18" fill="#38bdf8"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
+  <rect x="482" y="126" width="10" height="18" fill="#38bdf8"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
 
   <!-- accent beam -->
   <rect x="48" y="166" width="300" height="2.5" rx="1.25" fill="url(#beam)"/>
