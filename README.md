@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img width="100%" src=".github/banner-v2.svg" alt="Neetigya Shah — agentic systems, verification layers, shipped end to end" />
+  <img width="100%" src=".github/banner.svg" alt="Neetigya Shah — agentic systems, verification layers, shipped end to end" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ```json
 {
-  "now":     "GenAI Developer Intern @ OceanAI (Mariapps / BSM group) — building agentic tooling over maritime data",
+  "now":     "building agentic tooling + upstream fixes in the OSS I run daily",
   "focus":   "LLM agents that are verified, not trusted — generate → independently verify → confidence-gate",
   "craft":   "full ownership, pipeline to UI: data → agent/model → API → interface",
   "design":  "constraints that survive production — offline fallbacks, CPU-only budgets, zero-API-key demos",
