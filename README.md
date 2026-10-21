@@ -86,9 +86,16 @@ Contributions outside my own repos — mostly <a href="https://github.com/can135
 
 <br/>
 
+## `$ gh api /users/NeetigyaShah --jq .stats`
+
+```
+commits (all repos)      655
+external PRs             6 (2 merged, 3 open)
+external issues          3 filed
+public repos             26
+```
 
 <p align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=NeetigyaShah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide_rank=true" />
   <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeetigyaShah&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
