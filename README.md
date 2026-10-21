@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img width="100%" src=".github/profile-banner.svg" alt="Neetigya Shah — agentic systems, verification layers, shipped end to end" />
+  <img width="100%" src=".github/profile-banner.svg?v=2" alt="Neetigya Shah — agentic systems, verification layers, shipped end to end" />
 </p>
 
 <p align="center">
