@@ -4,94 +4,109 @@
 -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:1a2a6c&height=180&section=header&text=Neetigya%20Shah&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40" />
+  <img width="100%" src=".github/readme.svg" alt="Neetigya Shah — agentic systems, verification layers, shipped end to end" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Agentic+AI+%2B+LLM+orchestration;Systems+that+stay+correct+under+load;Turning+ideas+into+shipped+products" />
+  <code>agentic systems · verification layers · shipped end to end</code>
 </p>
 
 <p align="center">
-  🎓 B.Tech CSE @ VIT &nbsp;•&nbsp; 🤖 Agentic AI / LangGraph &nbsp;•&nbsp; ⚙️ Offline-first systems &nbsp;•&nbsp; 🌐 Full-stack
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/neetigya-shah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:neetigyashah@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/NeetigyaShah"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/neetigya-shah-6277b9245">linkedin</a>
+  · <a href="mailto:neetigyashah@gmail.com">email</a>
+  · <a href="https://neetigya.vercel.app">portfolio</a>
 </p>
 
 <br/>
 
-## 🔥 What I'm About
+## `$ cat profile.json`
 
-- 🧠 Building systems where an LLM does the reasoning but **can't be trusted blindly** — generate → independently verify → confidence-gated action
-- 🔄 End-to-end ownership: data pipeline → agent/model → API → UI
-- ⚙️ Designing for constraints that matter in production: offline fallbacks, CPU-only budgets, zero-API-key demo paths
-
-<br/>
-
-## 🚀 Featured Projects
-
-### 🩹 [DocGuard](https://github.com/NeetigyaShah/docguard)
-**Self-healing documentation CI bot**
-
-Watches a `git diff`, figures out which code changes actually made your Markdown docs stale (AST-level, not a text diff), has an LLM verify + write a fix, then an **independent second LLM validates the fix before it ever reaches you** — confidence-gated auto-PR / review-comment / report-only. Runs fully offline via a deterministic mock oracle, zero API key required to demo.
-
-`Python` `tree-sitter` `Docker Action` `React dashboard` — 106 tests passing • ships as a GitHub Action
-
-<img src="https://img.shields.io/github/last-commit/NeetigyaShah/docguard?style=flat-square&color=58A6FF&label=last%20commit" /> <img src="https://img.shields.io/github/languages/top/NeetigyaShah/docguard?style=flat-square&color=58A6FF" />
+```json
+{
+  "now":     "GenAI Developer Intern @ OceanAI (Mariapps / BSM group) — building agentic tooling over maritime data",
+  "focus":   "LLM agents that are verified, not trusted — generate → independently verify → confidence-gate",
+  "craft":   "full ownership, pipeline to UI: data → agent/model → API → interface",
+  "design":  "constraints that survive production — offline fallbacks, CPU-only budgets, zero-API-key demos",
+  "school":  "B.Tech CSE @ Vellore Institute of Technology (2022–2026)",
+  "contact": "neetigyashah@gmail.com"
+}
+```
 
 <br/>
 
-### 🕵️ [frisk](https://github.com/NeetigyaShah/frisk-risk-signal-aggregator)
-**Agentic AML risk-triage engine**
+## `$ gh repo list --featured`
 
-A tool-calling LLM agent that investigates a customer dossier the way a human analyst would — pulls signals, builds a cited investigation trace, and scores risk instead of returning a black-box number. Backed by a 5-tier Redis memory system and a human-review queue so analyst overrides actually get learned from. Runs fully offline against mock data.
-
-`Python` `LangGraph` `Redis` `Human-in-the-loop`
-
-<img src="https://img.shields.io/github/last-commit/NeetigyaShah/frisk-risk-signal-aggregator?style=flat-square&color=58A6FF&label=last%20commit" /> <img src="https://img.shields.io/github/languages/top/NeetigyaShah/frisk-risk-signal-aggregator?style=flat-square&color=58A6FF" />
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NeetigyaShah/BugReel">BugReel</a></h3>
+      <p><b>Bug reports that actually explain the bug</b></p>
+      <p>A &lt;4KB loader watches a rolling ~60s buffer of clicks, routes, network calls, and console output inside a Web Worker. Deterministic detectors catch the three failures humans can't describe — dead clicks, silent failures, rage clicks — and compile everything into a self-contained <code>.bugpack</code>: annotated screenshot, replayable <code>curl</code>, runnable Playwright repro. No AI, no session replay, nothing leaves the page until submit.</p>
+      <p><code>TypeScript</code> <code>pnpm monorepo</code> <code>Web Worker</code> <code>Playwright</code> — 373 unit + 26 e2e tests · published as <code>@bugreel/sdk</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NeetigyaShah/docguard">DocGuard</a></h3>
+      <p><b>Self-healing documentation CI bot</b></p>
+      <p>Watches a <code>git diff</code> and finds which code changes actually made your Markdown stale — AST-level, not text diff. One LLM writes the fix, an <b>independent second LLM validates it</b> before it reaches you: confidence-gated auto-PR, review comment, or report-only. Runs fully offline via a deterministic mock oracle — zero API key to demo.</p>
+      <p><code>Python</code> <code>tree-sitter</code> <code>Docker Action</code> <code>React</code> — 106 tests · ships as a GitHub Action</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NeetigyaShah/frisk-risk-signal-aggregator">frisk</a></h3>
+      <p><b>Agentic AML risk-triage engine</b></p>
+      <p>A tool-calling LLM agent that investigates a customer dossier the way a human analyst would: pulls signals, builds a <b>cited</b> investigation trace, scores risk instead of returning a black-box number. 5-tier Redis memory + a human-review queue so analyst overrides actually get learned from. Fully offline against mock data.</p>
+      <p><code>Python</code> <code>LangGraph</code> <code>Redis</code> <code>Human-in-the-loop</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NeetigyaShah/AIEmailAgent">AIEmailAgent</a> · <a href="https://neetigyashahaiemailagent.streamlit.app/">live</a></h3>
+      <p><b>Multimodal email triage agent</b></p>
+      <p>LangGraph state machine + Gemini 2.5 Flash reads incoming mail — text, images, attachments — extracts what matters, takes the next action. Deployed and usable right now, no setup. Security-conscious by design: local-only storage, OAuth for mail access.</p>
+      <p><code>Python</code> <code>LangGraph</code> <code>Gemini 2.5</code> <code>Streamlit</code></p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-### 📬 [AIEmailAgent](https://github.com/NeetigyaShah/AIEmailAgent) — [live demo](https://neetigyashahaiemailagent.streamlit.app/)
-**Multimodal email triage agent**
+## `$ gh pr list --author @me --not-owner @me`
 
-LangGraph state machine + Gemini 2.5 Flash reads incoming mail (text, images, attachments), extracts what matters, and takes the next action — deployed and usable right now, no setup. Security-conscious by design: local-only storage, OAuth for mail access.
+Contributions outside my own repos — mostly <a href="https://github.com/can1357/oh-my-pi">oh-my-pi</a>, the coding agent I build on daily:
 
-`Python` `LangGraph` `Gemini 2.5` `Streamlit`
-
-<img src="https://img.shields.io/github/last-commit/NeetigyaShah/AIEmailAgent?style=flat-square&color=58A6FF&label=last%20commit" /> <img src="https://img.shields.io/github/languages/top/NeetigyaShah/AIEmailAgent?style=flat-square&color=58A6FF" />
+| # | Type | State | What |
+|---|------|-------|------|
+| <a href="https://github.com/can1357/oh-my-pi/pull/12325">12325</a> | PR | 🟣 open | OAuth device flow + client-identity headers + workspace routing for zen console |
+| <a href="https://github.com/can1357/oh-my-pi/pull/10891">10891</a> | PR | 🟣 open | Per-provider API key lists with cycling and failover |
+| <a href="https://github.com/can1357/oh-my-pi/pull/10870">10870</a> | PR | 🟣 open | Cap vercel muse-spark-1.3-contributor output tokens |
+| <a href="https://github.com/can1357/oh-my-pi/pull/10866">10866</a> | PR | ✅ merged | Guard gradient palette against uninitialized global theme |
+| <a href="https://github.com/cgarrot/pi-voice-stt/pull/19">pi-voice-stt#19</a> | PR | ✅ merged | Fix 0-byte ffmpeg capture on Windows, TUI editor proxy, debounced toggle |
+| <a href="https://github.com/can1357/oh-my-pi/issues/10871">10871</a> | Issue | 🟢 open | Option to cycle API keys for API-key-auth providers |
+| <a href="https://github.com/can1357/oh-my-pi/issues/10864">10864</a> | Issue | ⚪ closed | `theme.getColorMode` crash in gradient-highlight palette |
+| <a href="https://github.com/can1357/oh-my-pi/issues/12306">12306</a> | Issue | 🟢 open | muse-spark-1.3-contributor-free 403 FreeTierError (also commented) |
 
 <br/>
 
-## 🧰 Tech Stack
+| <a href="https://github.com/can1357/oh-my-pi/issues/12306">12306</a> | Issue · comment | 🟢 open | muse-spark-1.3-contributor-free returns 403 FreeTierError in OMP |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,typescript,react,nodejs,flask,fastapi,postgres,redis,docker,gcp" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api?username=NeetigyaShah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeetigyaShah&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NeetigyaShah/NeetigyaShah/output/github-contribution-grid-snake.svg" alt="contribution snake" />
 </p>
 
 <br/>
 
-## 📊 Contribution Graph
+## `$ which --all tools`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeetigyaShah/NeetigyaShah/output/github-contribution-grid-snake.svg" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/NeetigyaShah?style=for-the-badge&label=followers&color=58A6FF" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,nodejs,fastapi,postgres,mongodb,redis,kafka,docker,gcp,aws,cpp,java&perline=8" />
 </p>
 
 <br/>
 
-## 🎓 Education
-
-**B.Tech in Computer Science** — Vellore Institute of Technology (2022–2026) • CGPA 8.07
-
-<br/>
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NeetigyaShah&label=Profile%20Views&color=58A6FF&style=for-the-badge" />
+  <code>open to agentic-AI / backend / full-stack roles — neetigyashah@gmail.com</code>
 </p>
