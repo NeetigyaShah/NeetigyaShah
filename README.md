@@ -86,10 +86,9 @@ Contributions outside my own repos — mostly <a href="https://github.com/can135
 
 <br/>
 
-| <a href="https://github.com/can1357/oh-my-pi/issues/12306">12306</a> | Issue · comment | 🟢 open | muse-spark-1.3-contributor-free returns 403 FreeTierError in OMP |
 
 <p align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=NeetigyaShah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api?username=NeetigyaShah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide_rank=true" />
   <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeetigyaShah&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
