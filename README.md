@@ -59,10 +59,10 @@
       <p><code>Python</code> <code>LangGraph</code> <code>Redis</code> <code>Human-in-the-loop</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/NeetigyaShah/AIEmailAgent">AIEmailAgent</a> · <a href="https://neetigyashahaiemailagent.streamlit.app/">live</a></h3>
-      <p><b>Multimodal email triage agent</b></p>
-      <p>LangGraph state machine + Gemini 2.5 Flash reads incoming mail — text, images, attachments — extracts what matters, takes the next action. Deployed and usable right now, no setup. Security-conscious by design: local-only storage, OAuth for mail access.</p>
-      <p><code>Python</code> <code>LangGraph</code> <code>Gemini 2.5</code> <code>Streamlit</code></p>
+      <h3><a href="https://github.com/NeetigyaShah/deep-research">deep-research</a></h3>
+      <p><b>Deep research agent that lives inside your AI coding tool</b></p>
+      <p>Type <code>/deep-research</code> + a topic. It interviews you first — never guesses — turns your answers into explicit goals, then fans parallel sub-agents across web and academic papers (reads real arXiv sections, not just abstracts), loops until every goal meets its done-criteria, and ships a white-paper HTML report with a Gaps section instead of made-up answers. Progress lives in Markdown, so an interrupted run resumes.</p>
+      <p><code>AI skill</code> <code>parallel sub-agents</code> <code>arXiv</code> <code>DuckDuckGo</code></p>
     </td>
   </tr>
 </table>
